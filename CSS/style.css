@@ -2,16 +2,16 @@
 background-color: rgb(0, 47, 255);
 }
 .news{
-    background-color: black;
+    background-color: rgb(27, 134, 134);
 }
-.news{
+.social{
     background-color: yellow;
 }
 .description{
     background-color: green;
 }
-.gallery{
-    background-color: crimson;
+.Gallery{
+    background-color: rgb(139, 47, 167);
 }
 .footer{
     background-color: salmon;
