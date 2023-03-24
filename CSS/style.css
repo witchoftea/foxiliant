@@ -1,3 +1,6 @@
+body{
+    background-color: black;
+}
 #banner{
 background-color: rgb(0, 47, 255);
 }
@@ -19,4 +22,5 @@ background-color: rgb(0, 47, 255);
 nav>a{
     text-decoration: none;
     display: inline;
+    text-decoration-color: white;
 }
