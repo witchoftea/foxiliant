@@ -1,18 +1,18 @@
-.banner{
+#banner{
 background-color: rgb(0, 47, 255);
 }
-.news{
+#news{
     background-color: rgb(27, 134, 134);
 }
-.social{
+#social{
     background-color: yellow;
 }
-.description{
+#description{
     background-color: green;
 }
-.Gallery{
+#Gallery{
     background-color: rgb(139, 47, 167);
 }
-.footer{
+#footer{
     background-color: salmon;
 }
