@@ -1,26 +1,38 @@
-body{
+body {
     background-color: black;
 }
-#banner{
-background-color: rgb(0, 47, 255);
+
+#banner {
+    background-color: rgb(0, 47, 255);
 }
-#news{
+
+#news {
     background-color: rgb(27, 134, 134);
 }
-#social{
+
+#social {
     background-color: yellow;
 }
-#description{
+
+#description {
     background-color: green;
 }
-#Gallery{
+
+#Gallery {
     background-color: rgb(139, 47, 167);
 }
-#footer{
+
+#footer {
     background-color: salmon;
 }
-nav>a{
+
+nav>a {
     text-decoration: none;
     display: inline;
     text-decoration-color: white;
+    transition: all 1s ease;
+}
+
+html {
+    scroll-behavior: smooth;
 }
