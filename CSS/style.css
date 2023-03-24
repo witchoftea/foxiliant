@@ -26,10 +26,14 @@ body {
     background-color: salmon;
 }
 
+nav {
+    text-align: center;
+}
+
 nav>a {
     text-decoration: none;
     display: inline;
-    text-decoration-color: white;
+    color: white;
     transition: all 1s ease;
 }
 
