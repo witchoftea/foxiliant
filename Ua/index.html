@@ -10,19 +10,32 @@
 </head>
 
 <body>
-    <header>
+    <div id="header">
         <nav>
-            <a href="#banner">banner</a>
-            <a href="#news">news</a>
-            <a href="#social">social</a>
-            <a href="#description">description</a>
-            <a href="#Gallery">Gallery</a>
-            <a href="#footer">footer</a>
+            <ul>
+                <li><a href="#section1">Розділ 1</a></li>
+                <li><a href="#section3">Розділ 2</a></li>
+                <li class="dropdown">
+                    <a href="#section2" class="dropdown-button">Мова ▼</a>
+                    <div class="dropdown-content">
+                        <a href="../index.html">En</a>
+                        <a href="../Ru/index.html">RU</a>
+                    </div>
+                </li>
+            </ul>
         </nav>
-    </header>
-        <div id="content">
-            <!-- Содержимое страницы -->
-        </div>
+    </div>
+    <div id="content">
+        <section id="section1">
+            <!-- Содержимое раздела 1 -->
+        </section>
+        <section id="section2">
+            <!-- Содержимое раздела 2 -->
+        </section>
+        <section id="section3">
+            <!-- Содержимое раздела 3 -->
+        </section>
+    </div>
         <div id="underbody">
             <h1>Про що гра?</h1>
             <p>Ласкаво просимо у світ "Scarred Soul" - захоплюючої новели, де головний герой, Клінс, відкриває потайний прохід і розкриває дивовижні таємниці академії.</p>
