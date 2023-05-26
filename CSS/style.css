@@ -1,41 +1,41 @@
 body {
-       background-image: url('img/background.png');
+       background-image: url('../img/background.png');
        background-repeat: no-repeat;
        background-size: cover;
 }
 
 #banner {
-    background-image:url('img/Block-background.png');
+    background-image:url('../img/Block-background.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #news {
-    background-image:url('img/Block-background.png');
+    background-image:url('../img/Block-background.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #social {
-    background-image:url('img/Block-background.png');
+    background-image:url('../img/Block-background.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #description {
-    background-image:url('img/Block-background.png');
+    background-image:url('../img/Block-background.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #Gallery {
-    background-image:url('img/Block-background.png');
+    background-image:url('../img/Block-background.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #footer {
-    background-image:url('img/Block-background.png');
+    background-image:url('../img/Block-background.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
