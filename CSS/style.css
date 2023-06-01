@@ -91,14 +91,33 @@ html {
 }
 
 #spacer {
-    height: 1000px; /* Регулюйте висоту відступу за потребою */
-}
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+  }
 
-.sociamedia{
+  .underbody-content {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+.sociamedia {
     margin-top: 120px;
     margin-left: 20px;
 }
-.sociamedia>a>img{
+
+.sociamedia>a>img {
     height: 90px;
-   margin-top: 40px;
+    margin-top: 40px;
+}
+
+.title {
+    background-color: aliceblue;
+    margin-left: 565px;
+}
+
+.title>h1 {
+    font-size: 100px;
+    text-align: center;
 }
