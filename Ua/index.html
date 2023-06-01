@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ua">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
@@ -13,13 +13,13 @@
     <div id="header">
         <nav>
             <ul>
-                <li><a href="#section1">Розділ 1</a></li>
-                <li><a href="#section3">Розділ 2</a></li>
+                <li><a href="#underbody">Про гру</a></li>
+                <li><a href="#gallery">Галерея</a></li>
                 <li class="dropdown">
                     <a href="#section2" class="dropdown-button">Мова ▼</a>
                     <div class="dropdown-content">
-                        <a href="../index.html">EN</a>
                         <a href="../Ru/index.html">RU</a>
+                        <a href="../index.html">EN</a>
                     </div>
                 </li>
             </ul>
@@ -36,9 +36,7 @@
             <br>
             <a href="#"><img src="../img/steam.png" alt="link on steam"></li></a>
         </div>
-        <div class="title">
-            <h1>Scarred Soul</h1>
-        </div>
+        <div class="title"><h1>Scarred Soul</h1></div>
     </div>
 
     <div id="underbody">
@@ -58,9 +56,20 @@
             <p>"Scarred Soul" - це захоплююча подорож, повна головоломок, небезпек та відкриттів. Відчиніть ворота у цей
                 світ таємниць та магії, де Клінс розкриває потенціал своєї душі і стає героєм, здатним змінити долю
                 академії.</p>
+
+            <div class="gallery" id="gallery">
+                <img class="img-active" src="../img/Gallery/Klins_concepts0.1.png" alt="Image 1">
+                <img src="../img/Gallery/uniform1.png" alt="Image 2">
+
+                <div class="button-container">
+                    <button id="previousButton" class="gallery-button">&lt;</button>
+                    <button id="nextButton" class="gallery-button">&gt;</button>
+            </div>
+
+        </div>
+
         </div>
     </div>
-
     <script src="../script.js"></script>
 </body>
 
