@@ -15,3 +15,40 @@ window.addEventListener('scroll', function () {
         header.style.backgroundColor = 'rgba(20, 20, 20, 1)';
     }
 });
+
+
+const images = document.querySelectorAll('.gallery img');
+let currentIndex = 0;
+
+function showImage(index) {
+    images.forEach((image, i) => {
+        if (i === index) {
+            image.classList.add('img-active');
+        } else {
+            image.classList.remove('img-active');
+        }
+    });
+}
+
+function nextImage() {
+    currentIndex = (currentIndex + 1) % images.length;
+    showImage(currentIndex);
+}
+
+function previousImage() {
+    currentIndex = (currentIndex - 1 + images.length) % images.length;
+    showImage(currentIndex);
+}
+
+document.getElementById('previousButton').addEventListener('click', previousImage);
+document.getElementById('nextButton').addEventListener('click', nextImage);
+
+showImage(currentIndex);
+
+document.addEventListener('keydown', (e) => {
+    if (e.key === 'ArrowRight') {
+        nextImage();
+    } else if (e.key === 'ArrowLeft') {
+        previousImage();
+    }
+});
