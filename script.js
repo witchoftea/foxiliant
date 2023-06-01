@@ -4,7 +4,7 @@ window.addEventListener('scroll', function () {
     var contentSections = document.querySelectorAll('.content-section');
 
     if (scrollTop === 0) {
-        header.style.backgroundColor = 'rgba(60, 60, 60, 1)';
+        header.style.backgroundColor = 'rgba(20, 20, 20, 0.2)';
         contentSections.forEach(function (section) {
             var rect = section.getBoundingClientRect();
             if (rect.top >= 0 && rect.bottom <= window.innerHeight) {
@@ -12,6 +12,6 @@ window.addEventListener('scroll', function () {
             }
         });
     } else {
-        header.style.backgroundColor = 'rgba(68, 68, 68, 1)';
+        header.style.backgroundColor = 'rgba(20, 20, 20, 1)';
     }
 });
